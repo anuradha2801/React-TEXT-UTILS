@@ -2,6 +2,7 @@
 import React, {useState} from 'react'
 
 
+import PropTypes from 'prop-types'
 
 
 
@@ -38,7 +39,8 @@ const msg = new SpeechSynthesisUtterance()
 
    
     return(
-        <>       
+        <>     
+        
          <div className="conatainer" style={{color:props.mode==='dark'?'white':'black'}}>
             <h2>{props.heading}</h2>
             <div className="mb-3 "  style={{backgroundColor:props.mode==='dark'?'black':'white'}}>
