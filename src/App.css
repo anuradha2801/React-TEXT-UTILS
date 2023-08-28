@@ -41,4 +41,7 @@
   display: block;
   min-height: 1.5rem;
   padding-left: 3.5rem;
+  margin:10px;
+  color:#042360;
+  font-weight: 3rem;
 }
